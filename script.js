@@ -33,7 +33,7 @@ function addTodo(todo){
             updatesLS();
         });
 
-        todoEl.addEventListener('dblclick', () => {
+        todoEl.addEventListener('touchmove', () => {
             todoEl.remove();
             updatesLS();
         });
